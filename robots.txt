@@ -1,0 +1,7 @@
+# robots.txt for infiniterra website
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+# Sitemap-Position
+Sitemap: https://infiniterra.net/sitemap.xml

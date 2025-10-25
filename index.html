@@ -1,1 +1,192 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infiniterra - Official Website</title>
+
+    <!-- 🔍 SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Infinite terrain voxel game with focus on ambience, exploration and creativity. Build, explore and survive in a procedurally generated world."
+    />
+    <meta name="author" content="NuclearPhoenix" />
+    <meta name="robots" content="index, follow" />
+    <meta name="title" content="Infiniterra - Official Website" />
+    <meta name="language" content="English" />
+    <meta
+      name="keywords"
+      content="Infiniterra, Indie Game, NuclearPhoenix, Download, Browser Game, Gameplay, Official Website, Minecarft, Sandbox, Adventure, Voxel, Exploration, Creativity, Survival, Procedurally Generated World"
+    />
+
+    <!-- 🧭 Open Graph (Social Media Preview) -->
+    <meta property="og:title" content="Infiniterra - Official Website" />
+    <meta
+      property="og:description"
+      content="Infinite terrain voxel game with focus on ambience, exploration and creativity. Build, explore and survive in a procedurally generated world."
+    />
+    <meta
+      property="og:image"
+      content="https://infiniterra.net/assets/logo.png"
+    />
+    <meta property="og:url" content="https://infiniterra.net/" />
+    <meta property="og:type" content="website" />
+
+    <!-- 🐦 Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Infiniterra - Official Website" />
+    <meta
+      name="twitter:description"
+      content="Infinite terrain voxel game with focus on ambience, exploration and creativity. Build, explore and survive in a procedurally generated world."
+    />
+    <meta
+      name="twitter:image"
+      content="https://infiniterra.net/assets/logo.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @font-face {
+        font-family: 'PixeloidSans';
+        src: url('assets/fonts/PixeloidSans.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'PixeloidSans-Bold';
+        src: url('assets/fonts/PixeloidSans-Bold.woff2') format('woff2');
+        font-display: swap;
+      }
+
+      body {
+        font-family: 'PixeloidSans', sans-serif;
+        color: #fff;
+        background: #000;
+        background-image: url('assets/background.png');
+        background-size: auto;
+        background-repeat: repeat;
+        background-position: top left;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        position: relative;
+      }
+
+      body::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        z-index: 0;
+      }
+
+      main {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      img.icon {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+        image-rendering: pixelated;
+        border-radius: 8px;
+        margin: 0 auto 1.5rem auto;
+        display: block;
+      }
+
+      h1 {
+        font-family: 'PixeloidSans-Bold', sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+      }
+
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.12);
+        padding: 0.8rem 1rem;
+        border-radius: 10px;
+        backdrop-filter: blur(6px);
+        transition: all 0.25s ease;
+        font-weight: 500;
+      }
+
+      a:hover {
+        background: rgba(255, 255, 255, 0.25);
+        transform: translateY(-2px);
+      }
+
+      footer {
+        position: relative;
+        z-index: 1;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>infiniterra</h1>
+      <img src="assets/logo.png" alt="Logo" class="icon" />
+
+      <br />
+
+      <div class="links">
+        <a
+          href="https://www.indiedb.com/games/infiniterra"
+          target="_blank"
+          rel="noopener"
+          >🎮 IndieDB</a
+        >
+        <a
+          href="https://www.youtube.com/@NuclearPhoenixxGaming"
+          target="_blank"
+          rel="noopener"
+          >▶ YouTube</a
+        >
+      </div>
+    </main>
+
+    <p>This page is a work in progress.</p>
+
+    <footer>© 2025 NuclearPhoenix</footer>
+  </body>
+</html>
